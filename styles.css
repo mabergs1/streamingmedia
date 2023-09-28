@@ -139,7 +139,9 @@ footer p {
     font-size: .75em;
 }
 
-
+audio {
+    z-index: 1;
+}
 audio::-webkit-media-controls-mute-button {
     margin: 0;
 }
