@@ -1,0 +1,9 @@
+audio::-webkit-media-controls-mute-button {
+    margin: 0;
+}
+audio::-webkit-media-controls-play-button {
+    margin: 0;
+}
+audio::-webkit-media-controls-enclosure {
+    margin: 0;
+}
