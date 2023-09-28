@@ -46,11 +46,21 @@ table {
     border-spacing: 0;
 }
 /* END RESET CODE */
-* {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1 {font-size:1.25em;}
-h2, h3 {font-size: 1em;}
-p, dl, dd {font-size: 1em;}
-footer p {font-size: .75em;}
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
+}
+footer p {
+    font-size: .75em;
+}
 
 
 audio::-webkit-media-controls-mute-button {
