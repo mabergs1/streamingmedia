@@ -46,14 +46,14 @@ table {
     border-spacing: 0;
 }
 /* END RESET CODE */
-
-
-
-
-
-
-
-
+html {
+    background-color: #020659;
+}
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
 
 
 
