@@ -52,6 +52,11 @@ table {
 html {
     background-color: #020659;
 }
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
 h1 {
     font-size:1.25em;
 }
