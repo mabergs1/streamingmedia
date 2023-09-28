@@ -46,6 +46,7 @@ table {
     border-spacing: 0;
 }
 /* END RESET CODE */
+
 html {
     background-color: #020659;
 }
@@ -54,7 +55,11 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
 }
-
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 ul {
     overflow: hidden;
     max-height: 0;
