@@ -49,6 +49,9 @@ table {
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html {
+    background: color #020659;
+}
 h1 {
     font-size:1.25em;
 }
