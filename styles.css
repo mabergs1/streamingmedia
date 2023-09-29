@@ -92,10 +92,8 @@ a {
 li {
     display: inline-flex;
 }
-li, li a {
+li {
     background-color: #030abc;
-    
-
 }
 li:hover {
     background-color: #590242;
