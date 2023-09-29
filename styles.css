@@ -73,6 +73,7 @@ header {
 }
 nav {
     display: flex;
+    width: auto;
     align-items: center;
     background-color: #030abc;
     text-transform: uppercase;
