@@ -91,6 +91,7 @@ a {
 }
 li {
     display: inline-flex;
+    padding: 10 px;
 }
 li {
     background-color: #030abc;
