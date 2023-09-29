@@ -316,7 +316,15 @@ h2, h3 {
         grid-column-end: 3;
     }
     .your-playlists {
+        display: flex;
+        flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 2;
+    }
+    .curated-playlists {
+        display: flex;
+        flex-direction: column;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 }
