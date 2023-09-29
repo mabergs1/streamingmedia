@@ -68,7 +68,11 @@ header {
     justify-content: center;
     align-items: normal;
 }
-
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #030abc;
+}
 nav h2 {
     visibility: hidden;
 }
