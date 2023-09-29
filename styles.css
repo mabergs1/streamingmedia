@@ -67,8 +67,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: normal;
-    height: 175px;
-    width: 834px;
 }
 .smooth {
     margin: 20px 15px 15px 30px;
@@ -294,5 +292,15 @@ h2, h3 {
     }
     label span, input {
         display: none;
+    }
+    header {
+        height: 175px;
+        width: 834px;
+    }
+    nav ul {
+        overflow:visible;
+        max-height: 66px;
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
