@@ -170,7 +170,6 @@ h1 {
 }
 h2, h3 {
     font-size: 1em;
-    color: #ffffff;
 }
 p, dl, dd {
     font-size: 1em;
@@ -277,6 +276,9 @@ audio::-webkit-media-controls-enclosure {
 }
 #your-playlists ::-webkit-scrollbar-thumb:hover, #curated-playlists ::-webkit-scrollbar-thumb:hover {
 	background: #ffffff;
+}
+#your-playlists h3, #curated-playlists h3 {
+    color: #ffffff;
 }
 /* TEXT */
 BODY {
