@@ -251,10 +251,10 @@ audio::-webkit-media-controls-enclosure {
 #trending ::-webkit-scrollbar-thumb:hover {
 	background: #020659;
 }
-#playlists{
+#your-playlists{
     background-color: #2699fb;
 }
-#playlists section:hover {
+#your-playlists section:hover {
     background-color: #590242;
 }
 #curated{
@@ -263,17 +263,17 @@ audio::-webkit-media-controls-enclosure {
 #curated section:hover {
     background-color: #590242;
 }
-#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+#your-playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
 	width: 15px;
 }
-#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track {
+#your-playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 15px #020659
 }
-#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+#your-playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
 	background: #020659;
 	border-radius: 5px;
 }
-#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+#your-playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
 	background: #ffffff;
 }
 /* TEXT */
