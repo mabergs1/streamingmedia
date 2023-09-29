@@ -62,10 +62,11 @@ body {
     background-color: #ffffff;
 }
 header {
-    background-image: linear-gradient(to right, #2104d9, #000000);
+    background-image: linear-gradient(to right, #2104d9, #020659);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: normal;
 }
 
 nav h2 {
