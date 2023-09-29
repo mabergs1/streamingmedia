@@ -68,13 +68,14 @@ header {
     justify-content: center;
     align-items: normal;
 }
-.smooth, .smooth p {
+.header, .header p {
     margin: 20px 15px 15px 30px;
 }
 nav {
     display: flex;
     align-items: center;
     background-color: #030abc;
+    text-transform: uppercase;
 }
 nav h2 {
     visibility: collapse;
@@ -93,11 +94,21 @@ li {
 }
 li, li a {
     background-color: #030abc;
+    
+
 }
 li:hover {
     background-color: #590242;
 }
-
+header h1, header p {
+    color: #ffffff;
+    position: relative;
+    top: 65px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
 label {
     cursor: pointer;
     display: inline-block;
@@ -309,6 +320,9 @@ h2, h3 {
     }
     header {
         height: 175px;
+        width: 834px;
+    }
+    nav{
         width: 834px;
     }
     nav ul {
