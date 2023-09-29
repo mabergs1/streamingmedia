@@ -257,23 +257,23 @@ audio::-webkit-media-controls-enclosure {
 #your-playlists section:hover {
     background-color: #590242;
 }
-#curated{
+#curated-playlists {
     background-color: #2104d9;
 }
-#curated section:hover {
+#curated-playlists section:hover {
     background-color: #590242;
 }
-#your-playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+#your-playlists ::-webkit-scrollbar, #curated-playlists ::-webkit-scrollbar {
 	width: 15px;
 }
-#your-playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track {
+#your-playlists ::-webkit-scrollbar-track, #curated-playlists ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 15px #020659
 }
-#your-playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+#your-playlists ::-webkit-scrollbar-thumb, #curated-playlists ::-webkit-scrollbar-thumb {
 	background: #020659;
 	border-radius: 5px;
 }
-#your-playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+#your-playlists ::-webkit-scrollbar-thumb:hover, #curated-playlists ::-webkit-scrollbar-thumb:hover {
 	background: #ffffff;
 }
 /* TEXT */
