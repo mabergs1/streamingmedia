@@ -78,7 +78,7 @@ nav {
     background-color: #030abc;
 }
 nav h2 {
-    visibility: hidden;
+    visibility: collapse;
 }
 ul {
     overflow: hidden;
@@ -306,5 +306,17 @@ h2, h3 {
         max-height: 66px;
         justify-content: space-between;
         flex-direction: row;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .trending {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .your-playlists {
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
 }
