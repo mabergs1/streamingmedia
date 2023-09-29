@@ -49,6 +49,7 @@ table {
 
 html {
     background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
     min-width: 375px;
@@ -60,6 +61,9 @@ body {
     box-sizing:border-box;
     margin:0;
     padding:0;
+}
+nav h2 {
+    visibility: hidden;
 }
 ul {
     overflow: hidden;
