@@ -102,7 +102,8 @@ li:hover {
     background-color: #590242;
 }
 ul li:first-child{
-    font-size: large;
+    font-size: x-large;
+    font-variant: small-caps;
     padding: 15px;
     width: 100%;
 }
