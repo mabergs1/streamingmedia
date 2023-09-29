@@ -253,8 +253,14 @@ audio::-webkit-media-controls-enclosure {
 #playlists{
     background-color: #2699fb;
 }
+#playlists section:hover {
+    background-color: #590242;
+}
 #curated{
     background-color: #2104d9;
+}
+#curated section:hover {
+    background-color: #590242;
 }
 #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
 	width: 15px;
