@@ -67,6 +67,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: normal;
+    height: 175px;
+    width: 834px;
 }
 .smooth {
     margin: 20px 15px 15px 30px;
