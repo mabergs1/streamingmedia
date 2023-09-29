@@ -187,6 +187,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 dl {
 	display: flex;
+    color: #590242;
 }
 dt {
 	padding-right: 5px;
