@@ -118,6 +118,18 @@ input:checked ~ label span:after {
 input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
+}
+footer p {
+    font-size: .75em;
+}
 
 
 
@@ -184,7 +196,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 .scroll div {
 	position: absolute;
 	top: 251px;
-	background-color: rgba (255, 255, 255, .75); 
+	background-color: rgba(255, 255, 255, .75); 
 	padding: 5px;
 	height: 50px; 
 	width: 350px;
@@ -237,7 +249,7 @@ audio::-webkit-media-controls-enclosure {
 }
 #trending ::-webkit-scrollbar-thumb {
 	background: #590242;
-	border-raadius: 5px;
+	border-radius: 5px;
 }
 #trending ::-webkit-scrollbar-thumb:hover {
 	background: #020659;
@@ -250,7 +262,7 @@ audio::-webkit-media-controls-enclosure {
 }
 #playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
 	background: #020659;
-	border-raadius: 5px;
+	border-radius: 5px;
 }
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
 	background: #ffffff;
