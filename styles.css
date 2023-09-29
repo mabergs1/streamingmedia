@@ -307,24 +307,5 @@ h2, h3 {
         justify-content: space-between;
         flex-direction: row;
     }
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    #trending {
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    #your-playlists {
-        display: flex;
-        flex-direction: column;
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-    #curated-playlists {
-        display: flex;
-        flex-direction: column;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
+
 }
