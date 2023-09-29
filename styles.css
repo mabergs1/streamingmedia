@@ -88,9 +88,16 @@ a {
     color: #ffffff;
     display: block;
 }
+li {
+    display: inline-flex;
+}
+li, li a {
+    background-color: #030abc;
+}
 li:hover {
     background-color: #590242;
 }
+
 label {
     cursor: pointer;
     display: inline-block;
