@@ -46,7 +46,11 @@ table {
     border-spacing: 0;
 }
 /* END RESET CODE */
-
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,11 +61,10 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
 }
-* {
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+header {
+    background-color: #020873;
 }
+
 nav h2 {
     visibility: hidden;
 }
@@ -169,22 +172,8 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .scroll {
-	display: grid; /*display: flex;*/ 
+	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	overflow-x: auto;
 	overflow-y: hidden;
