@@ -99,6 +99,10 @@ li {
 li:hover {
     background-color: #590242;
 }
+ul li:first-child{
+    font-size: large;
+    
+}
 header h1, header p {
     color: #ffffff;
     position: relative;
