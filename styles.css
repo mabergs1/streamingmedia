@@ -68,6 +68,9 @@ header {
     justify-content: center;
     align-items: normal;
 }
+header h1 {
+    margin-top: 15px;
+}
 nav {
     display: flex;
     align-items: center;
