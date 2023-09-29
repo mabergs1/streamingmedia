@@ -76,6 +76,7 @@ nav {
     align-items: center;
     background-color: #030abc;
     text-transform: uppercase;
+    z-index: 1;
 }
 nav h2 {
     visibility: collapse;
@@ -92,8 +93,6 @@ a {
 li {
     display: inline-flex;
     padding: 10 px;
-}
-li {
     background-color: #030abc;
 }
 li:hover {
@@ -101,7 +100,7 @@ li:hover {
 }
 ul li:first-child{
     font-size: large;
-    
+    padding: 15px;
 }
 header h1, header p {
     color: #ffffff;
