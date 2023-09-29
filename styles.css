@@ -51,7 +51,8 @@ html {
     background-color: #020659;
 }
 body {
-    width: 375px;
+    min-width: 375px;
+    max-width: 834px;
     margin: 0 auto;
     background-color: #ffffff;
 }
