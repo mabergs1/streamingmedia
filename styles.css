@@ -95,6 +95,7 @@ li {
     display: inline-flex;
     width: 100%;
     padding: 10 px;
+    margin: 10px;
     background-color: #030abc;
 }
 li:hover {
