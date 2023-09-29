@@ -85,6 +85,9 @@ ul {
     max-height: 0;
     transition: max-height .2s ease-out;
 }
+a {
+    color: #ffffff;
+}
 li:hover {
     background-color: #590242;
 }
